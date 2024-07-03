@@ -1,0 +1,5 @@
+let set = new Set([1,2,3])
+set.clear()
+set.add(78)
+for(let item of set)
+    console.log(item)

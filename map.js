@@ -1,0 +1,5 @@
+const map = new Map([['key1',786],['key2',999]])
+map.set('key3',456)
+for(let [key,item] of map)
+    console.log(key,item)
+// console.log(map.has('key2'))
